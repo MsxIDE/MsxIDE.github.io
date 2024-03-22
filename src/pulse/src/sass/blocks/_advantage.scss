@@ -1,0 +1,44 @@
+.advantage {
+  min-height: 473px;
+  padding: 73px 0 83px 0;
+  background-color: #f6f6f6;
+
+  &__items {
+    margin-top: 60px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__item {
+    color: #0D0D0D;
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 18px;
+    max-width: 240px;
+
+    img {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 30px;
+    }
+
+    span {
+      display: block;
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 20px;
+    }
+
+    a {
+      color: #F00;
+      text-decoration-line: underline;
+    }
+  }
+
+  &__lg-hidden {
+    display: none;
+  }
+}
+
+@import '../media/advantage-media';

@@ -1,0 +1,58 @@
+@media (max-width: 991.5px) {
+  .slick-dots {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+    padding: 0;
+
+    li {
+      transform: skewX(-25deg);
+      cursor: pointer;
+
+      &:not(:last-child) {
+        margin-right: 15px;
+      }
+
+      button {
+        width: 50px;
+        height: 5px;
+        background-color: #d0d0d0;
+        border: none;
+        font-size: 0;
+      }
+
+      &.slick-active button {
+        background-color: $main-color;
+        color: #fff;
+      }
+    }
+  }
+}
+
+@media (max-width: 767.5px) {
+  .carousel {
+    &__inner {
+      width: 500px;
+
+      div img {
+        width: 100%;
+      }
+    }
+
+    .slick-slide {
+      height: 400px;
+    }
+  }
+}
+
+@media (max-width: 575.5px) {
+  .carousel {
+    &__inner {
+      width: 315px;
+    }
+
+    .slick-slide {
+      height: 300px;
+    }
+  }
+}

@@ -1,0 +1,49 @@
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  src: url(../fonts/MuseoSansCyrl-100.eot),
+  url(../fonts/MuseoSansCyrl-100.svg),
+  url(../fonts/MuseoSansCyrl-100.ttf),
+  url(../fonts/MuseoSansCyrl-100.woff),
+  url(../fonts/MuseoSansCyrl-100.woff2);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  src: url(../fonts/MuseoSansCyrl-300.eot),
+  url(../fonts/MuseoSansCyrl-300.svg),
+  url(../fonts/MuseoSansCyrl-300.ttf),
+  url(../fonts/MuseoSansCyrl-300.woff),
+  url(../fonts/MuseoSansCyrl-300.woff2);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  src: url(../fonts/MuseoSansCyrl-500.eot),
+  url(../fonts/MuseoSansCyrl-500.svg),
+  url(../fonts/MuseoSansCyrl-500.ttf),
+  url(../fonts/MuseoSansCyrl-500.woff),
+  url(../fonts/MuseoSansCyrl-500.woff2);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  src: url(../fonts/MuseoSansCyrl-700.eot),
+  url(../fonts/MuseoSansCyrl-700.svg),
+  url(../fonts/MuseoSansCyrl-700.ttf),
+  url(../fonts/MuseoSansCyrl-700.woff),
+  url(../fonts/MuseoSansCyrl-700.woff2);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Museo Sans Cyrl';
+  src: url(../fonts/MuseoSansCyrl-900.eot),
+  url(../fonts/MuseoSansCyrl-900.svg),
+  url(../fonts/MuseoSansCyrl-900.ttf),
+  url(../fonts/MuseoSansCyrl-900.woff),
+  url(../fonts/MuseoSansCyrl-900.woff2);
+  font-weight: 900;
+}

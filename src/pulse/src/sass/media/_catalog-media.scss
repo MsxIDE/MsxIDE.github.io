@@ -1,0 +1,30 @@
+@media (max-width:991.5px) {
+  .catalog {
+    &-item {
+      width: 230px;
+      margin: 0 5px 20px 5px;
+      padding: 10px;
+
+      &__wrapper {
+        height: 355px;
+        width: calc(200% + 20px);
+      }
+
+      &__content {
+        margin-right: 15px;
+      }
+
+      &__list {
+        padding-right: 15px;
+
+        li {
+          font-size: 13px;
+        }
+      }
+
+      &__price {
+        font-size: 18px;
+      }
+    }
+  }
+}
