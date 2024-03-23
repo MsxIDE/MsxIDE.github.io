@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Farsi Practicing</title>
+</head>
+<body>
+  <div class="screen">
+    <h1>Farsi Practice</h1>
+    <a href="#" class="start">Start</a>
+  </div>
+  <div class="screen">
+    <div class="settings">
+      <div class="settingsIco"></div>
+      <div class="menu hide">
+        <h2 class="menuTitle">Primary Language</h2>
+        <div class="langSwitcher primal">
+          <input type="radio" name="primLang" id="en" value="en" checked>
+          <label for="en">English</label>
+          <input type="radio" name="primLang" id="ru" value="ru">
+          <label for="ru">Русский</label>
+          <span class="slider"></span>
+        </div>
+        <h2 class="menuTitle">Secondary Language</h2>
+        <div class="langSwitcher secondary">
+          <input type="radio" name="secLang" id="fa" value="fa">        
+          <label for="fa">فارسی</label>
+          <input type="radio" name="secLang" id="fi" value="fi" checked>
+          <label for="fi">Finglish</label>
+          <span class="slider"></span>
+        </div>
+        <button class="applySettings">Apply</button>
+      </div>
+    </div>
+    <div class="content">
+      <div class="header"></div>
+      <div class="placeholder answer"></div>
+      <div class="placeholder wordPool"></div>
+    </div>
+    <div class="proceed">
+      <a href="#"></a>
+    </div>
+    <div class="answerCheck"></div>
+  </div>
+  <script src="library/library.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
