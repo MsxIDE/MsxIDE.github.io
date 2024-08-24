@@ -20,8 +20,52 @@ a {
   color: #f7a007;
 }
 
+a:hover {
+  text-decoration: underline;
+}
+
 .title {
   text-align: center;
+  margin: 20px 0;
+}
+
+.info {
+  position: relative;
+}
+
+.info__icon {
+  border: 1px solid #000;
+  border-radius: 100%;
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  right: 3%;
+  top: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.info__icon:hover {
+  cursor: pointer;
+  box-shadow: inset 0 0 10px 5px #fff;
+}
+
+.info__icon img {
+  width: 30px;
+  height: auto;
+}
+
+.info__descr {
+  display: none;
+  width: 200px;
+  text-align: justify;
+  position: absolute;
+  right: 5%;
+  background-color: #666;
+  border-radius: 20px;
+  padding: 10px;
+  z-index: 2;
 }
 
 .container {
@@ -59,4 +103,13 @@ a {
 .slide.active h2 {
   opacity: 1;
   transition: opacity 0.3s ease-in 0.4s;
+}
+
+.displayed {
+  display: block;
+}
+
+.transparent {
+  opacity: 0.5;
+  transition: opacity 0s 0.3s;
 }
